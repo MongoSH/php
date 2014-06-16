@@ -31,16 +31,3 @@ php_pear_channel 'pecl.php.net' do
 end
 
 include_recipe "php::ini"
-
-package 'apache2' do
-  action :install
-end
-
-service 'apache2' do
-  action [ :enab;e, :start ]
-end
-
-cookbook_file '/var/www/index.html' do
-  source 'index.html'
-  mode '0644'
-end
