@@ -1,5 +1,6 @@
 GH Cookbook
 ============
+- Author: Naresh Patel
 Installs additional components 
 
 Requirements
